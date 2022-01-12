@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*
+  Media Queries:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+:root{
+  --color-fondo: hsl(185, 75%, 39%);
+  --color-text: hsl(229, 23%, 23%);
+  --colorligero-text: hsl(0, 0%, 59%);
+  --color-secundario: hsl(227, 10%, 46%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body{
+  background-color: var(--color-fondo);
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(../img/top-circle.svg), url(../img/bottom-circle.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: right 50vw bottom 40vh,
+                       left 54vw top 52vh;
+  overflow: hidden;
+}
+
+/* CARD */
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin: 1rem;
+  max-width: 420px;
+  height: 440px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.img__header--burbles{
+  width: 100%;
+  height: 150px;
+}
+
+.img__header--victor{
+  width: 120px;
+  position: relative;
+  top: -60px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  /*usamos este fondo en la imagen para tapar el hueco en el borde*/
+  background-color: #fff;
+}
+
+.card__body{
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(125, 125, 125, 0.25);
+}
+
+.card__body--title{
+  margin-top: -40px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card__body--title span{
+  color: var(--color-secundario);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.card__body--par{
+  color: var(--colorligero-text);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.card__footer{
+  margin-top: 30px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social__number{
+  margin-bottom: 5px;
+  font-size: 23px;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.social__info{
+  font-size: 13px;
+  color: var(--colorligero-text);
+  font-weight: 700;
+}
+
+.attribution{
+  position: relative;
+  display: flex;
+  margin-top: -150px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: #f2f2f2;
+  overflow: hidden;
+}
+
+.attribution__a{
+  font-size: 11px;
+  text-decoration: none;
+}
