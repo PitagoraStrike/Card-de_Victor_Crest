@@ -27,8 +27,8 @@ El desafío es desarrollar esta tarjeta con Informacion de Redes Sociales para V
 ### ¿COMENTARIOS?
 Si tienes comentarios o dudas no dudes en escribirme en mis redes sociales
 
-### LINKS
-Solution URL:  [http://https://design-card-victor.netlify.app/](http://https://design-card-victor.netlify.app/)
+## Links
+Solution URL: [https://design-card-victor.netlify.app/](https://design-card-victor.netlify.app/)
 
 ### AUTOR
 - Frontend Mentor - @PitagoraStrike
