@@ -24,11 +24,11 @@ El desafío es desarrollar esta tarjeta con Informacion de Redes Sociales para V
 - Ver estados de desplazamiento para todos los elementos interactivos en la página
 - Capaz de la manipulacion de contenedores e items con la sintaxis FLEXBOX
 
+### LINK
+Solution URL: [https://design-card-victor.netlify.app/](https://design-card-victor.netlify.app/)
+
 ### ¿COMENTARIOS?
 Si tienes comentarios o dudas no dudes en escribirme en mis redes sociales
-
-### LINKS
-Solution URL: [https://design-card-victor.netlify.app/](https://design-card-victor.netlify.app/)
 
 ### AUTOR
 - Frontend Mentor - @PitagoraStrike
